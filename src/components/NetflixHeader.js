@@ -3,6 +3,27 @@ import "./NetfliixHeader.css";
 
 
 export default function NetflixHeader() {
+  const languages = [
+    {
+      title : "Select Laguage",
+    }, 
+    {
+      title : "telugu",
+    }, 
+    {
+      title : "Hindhi",
+    },
+    {
+      title : "Thamil",
+    },
+    {
+      title : "english",
+    },
+    {
+      title : "Kannada",
+    }
+  ];
+
   return (
     <>
     <div className='d-flex justify-content-between m-3 p-3'>
@@ -11,10 +32,11 @@ export default function NetflixHeader() {
         </div>
         <div className='input-group w-25'>
         <select className="form-select">
-                     <option>Language</option>
-                     <option>Telugu</option>
-                     <option>English</option>
-                   
+                    {
+                      languages.map(language => 
+                        <option>{language.title}</option>
+                        )
+                    }
         </select>
         <button className="btn btn-danger ms-2">Signin</button>
 
