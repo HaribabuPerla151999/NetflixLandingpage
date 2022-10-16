@@ -12,6 +12,7 @@ export default function NetflixHeader() {
         <div className='input-group w-25'>
         <select className="form-select">
                      <option>Language</option>
+                     <option>Telugu</option>
                      <option>English</option>
                      <option>Hindi</option>
         </select>
