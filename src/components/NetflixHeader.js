@@ -14,7 +14,7 @@ export default function NetflixHeader() {
                      <option>Language</option>
                      <option>Telugu</option>
                      <option>English</option>
-                     <option>Hindi</option>
+                   
         </select>
         <button className="btn btn-danger ms-2">Signin</button>
 
