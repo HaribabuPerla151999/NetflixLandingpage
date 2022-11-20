@@ -8,19 +8,22 @@ export default function NetflixHeader() {
       title : "Select Laguage",
     }, 
     {
-      title : "telugu",
+      title : "Telugu",
     }, 
     {
-      title : "Hindhi",
+      title : "Hindi",
     },
     {
-      title : "Thamil",
+      title : "Tamil",
     },
     {
-      title : "english",
+      title : "English",
     },
     {
       title : "Kannada",
+    },
+    {
+      title : "Malayalam"
     }
   ];
 
