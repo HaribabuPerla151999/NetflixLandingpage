@@ -24,6 +24,9 @@ export default function NetflixHeader() {
     },
     {
       title : "Malayalam"
+    },
+    {
+      title : "Punjabi"
     }
   ];
 
