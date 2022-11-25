@@ -10,7 +10,7 @@ export default function NetflixIndex() {
     <div>
         <div className='container-fluid bg-container'>
             <div className='bg-wrapper'>
-                <header>
+                <header>vds
                     <NetflixHeader/>
                 </header>
                 <section>
