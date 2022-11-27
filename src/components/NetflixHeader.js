@@ -24,9 +24,17 @@ export default function NetflixHeader() {
     },
     {
       title : "Malayalam"
+    },
+    {
+      title : "Marati"
+    },
+    {
+      title : "Gujarati"
+    },
+    {
+      title : "Kannada"
     }
   ];
-
   return (
     <>
     <div className='d-flex justify-content-between m-3 p-3'>
