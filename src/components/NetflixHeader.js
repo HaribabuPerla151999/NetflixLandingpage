@@ -30,6 +30,9 @@ export default function NetflixHeader() {
     },
     {
       title : "Gujarati"
+    },
+    {
+      title : "Kannada"
     }
   ];
   return (
